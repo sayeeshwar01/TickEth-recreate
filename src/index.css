@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* #image{
+  box-shadow: 0 0 20px 0 black;
+} */
+
+html::-webkit-scrollbar{
+width: 12px;
+height: 4px;
+}
+
+html::-webkit-scrollbar-track{
+  background-color: none;
+}
+
+html::-webkit-scrollbar-thumb
+{
+  background: #F54848;
+  border-radius: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
